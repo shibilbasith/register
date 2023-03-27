@@ -111,3 +111,57 @@ export default SignInSignupWithLocalStorage;
     
 //   )
 // }
+
+
+
+
+
+
+//fetch data from API using axios
+
+// import './App.css';
+// import { useState, useEffect } from 'react';
+// import axios from 'axios';
+
+// In default function in app.js
+// export default function App() {
+
+//   const [databs, setdatabs] = useState([]);
+
+//   useEffect(() => {
+//     axios.get("https://jsonplaceholder.typicode.com/posts")
+//       .then((res) => {
+//         setdatabs(res.data)
+
+//       })
+//       .catch((err) => {
+//         console.log(err)
+//       })
+//   }, [])
+//   return (
+
+//     <div className='App'>
+//       <table>
+//         <tr className='row'>
+//           <th>UserId</th>
+//           <th>Id</th>
+//           <th>Title</th>
+//           <th>Body</th>
+//         </tr>
+//         {
+//           databs.map((item, key) => {
+//             return (
+//               <tr key={key}>
+//                 <td>{item.userId}</td>
+//                 <td>{item.id}</td>
+//                 <td>{item.title}</td>
+//                 <td>{item.body}</td>
+//               </tr>
+//             )
+//           })
+//         }
+//       </table>
+
+//     </div>
+//   );
+// }
