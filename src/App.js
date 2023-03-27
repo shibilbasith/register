@@ -1,4 +1,5 @@
 import './App.css';
+import LocalStorage from './SignInSignUp';
 import SignInSignupWithLocalStorage from './SignInSignUp';
 
 function App() {

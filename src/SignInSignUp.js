@@ -70,3 +70,44 @@ function SignInSignupWithLocalStorage(){
     );
 }
 export default SignInSignupWithLocalStorage;
+
+// import React, { useEffect } from "react";
+// import { useState } from "react";
+// import './App.css'
+
+
+
+// export default function App(){
+
+//   const[name,setName]=useState("")
+//   const[email,setEmail]=useState("")
+//   const[pswd,setPswd]=useState("")
+
+
+// const handle=()=>{
+//   localStorage.setItem("name",name)
+//   localStorage.setItem("email",email)
+//   localStorage.setItem("password",pswd)
+// }
+
+
+//   return(
+//     <div className="form">
+//       <input type="name" placeholder="Enter your Name" onChange={(e)=>setName(e.target.value)} />
+      
+//       <input type="email" placeholder="Email or Phone number" onChange={(e)=>setEmail(e.target.value)}/>
+      
+//       <input type="password" placeholder="Enter your password" onChange={(e)=>setPswd(e.target.value)} />
+      
+
+//       <button onClick={handle} >Click Me</button>
+//       <div>
+//       <div>{localStorage.getItem("name")}</div>
+//       <div>{localStorage.getItem("email")}</div>
+//       <div>{localStorage.getItem("password")}</div>
+
+//       </div>
+//     </div>
+    
+//   )
+// }
